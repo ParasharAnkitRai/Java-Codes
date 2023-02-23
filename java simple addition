@@ -1,0 +1,11 @@
+# Java-Codes
+public class a {
+    public static void main(String arg[]){
+        System.out.println("Add these numbers");
+
+        int num1 = 7;
+        int num2 = 5;
+        int sum = num1+num2;
+         System.out.println(sum);
+
+    }
