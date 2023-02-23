@@ -1,0 +1,17 @@
+# Java-Codes
+import java.util.Scanner;
+
+public class numbercheck {
+    public static void main(String arg[]){
+        Scanner sc= new Scanner(System.in);
+                System.out.println("Enter the number to check Whether it is positive or negative ");
+        int a=sc.nextInt();
+
+        {
+            if(a>0)
+                System.out.println("Positive");
+            else
+                System.out.println("negative");
+        }
+}
+
