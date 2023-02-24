@@ -1,0 +1,35 @@
+# Java-Codes
+import java.util.Scanner;
+
+
+
+public class loops {
+    public static void main(String arg[]){
+
+        Scanner sc= new Scanner(System.in);
+        int number;
+        int choice;
+        int evensum=0;
+        int oddsum=0;
+
+        do{
+            System.out.println("Enter The Set Of Integers");
+            number=sc.nextInt();
+            if(number%2==0) {
+                evensum+=number;
+            }
+            else{
+                oddsum+=number;
+            }
+            System.out.print("DO YOU WANT TO CONTINUE? PRESS 1 FOR YES OR 0 FOR NO");
+            choice=  sc.nextInt();
+
+        }
+        while(choice==1);
+        System.out.println(" Sum Of Even Numbers ="+evensum);
+        System.out.println("Sum Of Odd Nummbers="+oddsum);
+
+
+
+    }
+}
